@@ -1,0 +1,86 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .parentDiv {
+    text-align: center;
+    margin: 50px auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 15px #222;
+  }
+  
+  /* Heading Styles */
+  h1, h3 {
+    color: #2c3e50;
+    font-family: 'Poppins';
+  }
+  
+  /* Form Styles */
+  form {
+    margin-top: 30px;
+  }
+  
+  label {
+    color: #222;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  
+  .inputElement {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    width: calc(100% - 22px);
+    color: #222;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  
+  .inputElement.Calculate {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* margin-top: -10px; */
+  }
+  
+  .inputElement.Calculate:hover {
+    background-color: blue;
+  }
+  
+  /* Result Styles */
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  /* User Guide Styles */
+  .User-Guide {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .User-Guide p {
+    color: #34495e;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 480px) {
+    .parentDiv {
+      width: 90%;
+    }
+  }
+  
